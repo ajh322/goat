@@ -1,0 +1,1262 @@
+fileFormatVersion: 2
+guid: 58c4e9a2bfeede04d98e447941a550ba
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Goat_HP_msh
+    100004: Goat_LP_msh
+    100006: Goat_SHP_msh
+    100008: GoatNewSkin_Goat_Head_JawSHJnt
+    100010: GoatNewSkin_Goat_Head_TopSHJnt
+    100012: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+    100014: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+    100016: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
+    100018: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+    100020: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+    100022: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+    100024: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+    100026: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+    100028: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+    100030: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+    100032: GoatNewSkin_Goat_Neck_01SHJnt
+    100034: GoatNewSkin_Goat_Neck_02SHJnt
+    100036: GoatNewSkin_Goat_Neck_TopSHJnt
+    100038: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+    100040: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+    100042: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
+    100044: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+    100046: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+    100048: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+    100050: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+    100052: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+    100054: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+    100056: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+    100058: GoatNewSkin_Goat_ROOTSHJnt
+    100060: GoatNewSkin_Goat_SHJntGrp
+    100062: GoatNewSkin_Goat_Spine_01SHJnt
+    100064: GoatNewSkin_Goat_Spine_02SHJnt
+    100066: GoatNewSkin_Goat_Spine_03SHJnt
+    100068: GoatNewSkin_Goat_Spine_04SHJnt
+    100070: GoatNewSkin_Goat_Spine_TopSHJnt
+    100072: GoatNewSkin_Goat_Tail_01_01SHJnt
+    100074: GoatNewSkin_Goat_Tail_01_02SHJnt
+    100076: GoatNewSkin_Goat_Tail_01_03SHJnt
+    100078: GoatNewSkin_group
+    100080: GoatNewSkin_Udders
+    400000: //RootNode
+    400002: Goat_HP_msh
+    400004: Goat_LP_msh
+    400006: Goat_SHP_msh
+    400008: GoatNewSkin_Goat_Head_JawSHJnt
+    400010: GoatNewSkin_Goat_Head_TopSHJnt
+    400012: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+    400014: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+    400016: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
+    400018: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+    400020: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+    400022: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+    400024: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+    400026: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+    400028: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+    400030: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+    400032: GoatNewSkin_Goat_Neck_01SHJnt
+    400034: GoatNewSkin_Goat_Neck_02SHJnt
+    400036: GoatNewSkin_Goat_Neck_TopSHJnt
+    400038: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+    400040: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+    400042: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
+    400044: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+    400046: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+    400048: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+    400050: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+    400052: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+    400054: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+    400056: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+    400058: GoatNewSkin_Goat_ROOTSHJnt
+    400060: GoatNewSkin_Goat_SHJntGrp
+    400062: GoatNewSkin_Goat_Spine_01SHJnt
+    400064: GoatNewSkin_Goat_Spine_02SHJnt
+    400066: GoatNewSkin_Goat_Spine_03SHJnt
+    400068: GoatNewSkin_Goat_Spine_04SHJnt
+    400070: GoatNewSkin_Goat_Spine_TopSHJnt
+    400072: GoatNewSkin_Goat_Tail_01_01SHJnt
+    400074: GoatNewSkin_Goat_Tail_01_02SHJnt
+    400076: GoatNewSkin_Goat_Tail_01_03SHJnt
+    400078: GoatNewSkin_group
+    400080: GoatNewSkin_Udders
+    4300000: Goat_LP_msh
+    4300002: Goat_HP_msh
+    4300004: Goat_SHP_msh
+    7400000: Bind Pose
+    7400002: Springbok
+    7400004: Run
+    7400006: Run With Jump
+    7400008: Run Fast
+    7400010: Walk
+    7400012: Walk Eating
+    7400014: Eating
+    7400016: Jump
+    7400018: Idle
+    7400020: Idle01
+    7400022: Lie Down
+    7400024: Rest
+    7400026: Stand Up
+    7400028: Fight Idle
+    7400030: Attack Back
+    7400032: Attack Front
+    7400034: Hit Left
+    7400036: Hit Right
+    7400038: Hit Front
+    7400040: Hit Back
+    7400042: Death
+    7400044: Death01
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Goat_LP_msh
+    13700002: Goat_HP_msh
+    13700004: Goat_SHP_msh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Goat_Mat
+    second: {fileID: 2100000, guid: f2cc1b257df5f814db1fbc9a9568d4e0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'GoatNewSkin_Goat_Spine_01SHJnt' has translation
+      animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_02SHJnt' has translation
+      animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_03SHJnt' has translation
+      animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_04SHJnt' has translation
+      animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_04SHJnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_TopSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_Spine_TopSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'GoatNewSkin_Goat_l_FrontLeg_HipSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_r_FrontLeg_HipSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_Neck_02SHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_Neck_02SHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'GoatNewSkin_Goat_Neck_TopSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_Head_JawSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'GoatNewSkin_Goat_r_HindLeg_HipSHJnt'
+      has translation animation that will be discarded.\n\t'GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bind Pose
+      takeName: 
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Springbok
+      takeName: 
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: 
+      firstFrame: 25
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run With Jump
+      takeName: 
+      firstFrame: 40
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run Fast
+      takeName: 
+      firstFrame: 67
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: 
+      firstFrame: 81
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk Eating
+      takeName: 
+      firstFrame: 112
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating
+      takeName: 
+      firstFrame: 166
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: 
+      firstFrame: 227
+      lastFrame: 257
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: 
+      firstFrame: 259
+      lastFrame: 377
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle01
+      takeName: 
+      firstFrame: 379
+      lastFrame: 469
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lie Down
+      takeName: 
+      firstFrame: 471
+      lastFrame: 489
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rest
+      takeName: 
+      firstFrame: 490
+      lastFrame: 549
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stand Up
+      takeName: 
+      firstFrame: 550
+      lastFrame: 569
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fight Idle
+      takeName: 
+      firstFrame: 571
+      lastFrame: 629
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Back
+      takeName: 
+      firstFrame: 630
+      lastFrame: 654
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack Front
+      takeName: 
+      firstFrame: 655
+      lastFrame: 679
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Left
+      takeName: 
+      firstFrame: 680
+      lastFrame: 694
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Right
+      takeName: 
+      firstFrame: 695
+      lastFrame: 709
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Front
+      takeName: 
+      firstFrame: 710
+      lastFrame: 724
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit Back
+      takeName: 
+      firstFrame: 725
+      lastFrame: 739
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: 
+      firstFrame: 741
+      lastFrame: 757
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death01
+      takeName: 
+      firstFrame: 759
+      lastFrame: 773
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: GoatNewSkin_Goat_ROOTSHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Neck_TopSHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Goat(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goat_HP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goat_LP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goat_SHP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_group
+      parentName: Goat(Clone)
+      position: {x: -0.027661616, y: 0.49753287, z: 0.27623773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_SHJntGrp
+      parentName: GoatNewSkin_group
+      position: {x: 0.027661616, y: -0.49753287, z: -0.27623773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_ROOTSHJnt
+      parentName: GoatNewSkin_Goat_SHJntGrp
+      position: {x: 0, y: 0.57873565, z: -0.0023562908}
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: -0.09304045, y: -0.0023562876, z: 0.016135667}
+      rotation: {x: 0.45066944, y: -0.46301746, z: 0.5055052, w: 0.57181853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      position: {x: -0.19123287, y: -3.5527136e-17, z: -2.3876456e-14}
+      rotation: {x: 0.0042047645, y: -0.42910308, z: 0.007691144, w: 0.903213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      position: {x: -0.2576462, y: 1.9813484e-13, z: -4.860112e-14}
+      rotation: {x: -0.038085856, y: 0.2846886, z: -0.04118752, w: 0.95697725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+      position: {x: -0.21062042, y: 0, z: -1.2576606e-14}
+      rotation: {x: -0.058619827, y: 0.6398712, z: 0.042992987, w: 0.76503605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      position: {x: -0.051763747, y: 0.0021999069, z: 0.028223688}
+      rotation: {x: -0.003908922, y: 0.808948, z: 0.003908922, w: 0.5878544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: 0.09304045, y: -0.0023562876, z: 0.016135667}
+      rotation: {x: 0.4630174, y: -0.45066944, z: 0.5718186, w: 0.50550514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+      position: {x: -0.19123287, y: 8.8817837e-17, z: -2.6467716e-14}
+      rotation: {x: -0.0042047948, y: -0.42910242, z: -0.0076912045, w: 0.90321326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+      position: {x: -0.2576462, y: -1.9808154e-13, z: 8.995471e-14}
+      rotation: {x: 0.038085904, y: 0.28468695, z: 0.04118753, w: 0.9569777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+      position: {x: -0.21062042, y: -2.842171e-16, z: -5.2580163e-15}
+      rotation: {x: 0.058619834, y: 0.63987195, z: -0.0429932, w: 0.7650355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      position: {x: -0.051763747, y: -0.0021999069, z: 0.028223688}
+      rotation: {x: 0.003908922, y: 0.808948, z: -0.003908922, w: 0.5878544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Spine_01SHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: 3.5527136e-17, y: 2.842171e-16, z: 0.1452424}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Spine_02SHJnt
+      parentName: GoatNewSkin_Goat_Spine_01SHJnt
+      position: {x: -0.117902346, y: -3.0106516e-16, z: -1.4210854e-16}
+      rotation: {x: -6.1232336e-17, y: -1.9984012e-15, z: 5.0532154e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Spine_03SHJnt
+      parentName: GoatNewSkin_Goat_Spine_02SHJnt
+      position: {x: -0.11752715, y: -1.8132908e-16, z: -2.842171e-16}
+      rotation: {x: -6.1232336e-17, y: -2.220446e-16, z: 5.0532154e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Spine_04SHJnt
+      parentName: GoatNewSkin_Goat_Spine_03SHJnt
+      position: {x: -0.11716373, y: -6.235767e-17, z: 0}
+      rotation: {x: 1, y: 2.8605971e-18, z: 1.110223e-16, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Spine_TopSHJnt
+      parentName: GoatNewSkin_Goat_Spine_04SHJnt
+      position: {x: -0.11716167, y: 7.5364134e-17, z: -4.2632563e-16}
+      rotation: {x: 3.0616168e-17, y: -1.110223e-16, z: -8.040614e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+      parentName: GoatNewSkin_Goat_Spine_TopSHJnt
+      position: {x: -7.105427e-17, y: -0.067489035, z: 2.842171e-16}
+      rotation: {x: 0.36429912, y: -0.36429912, z: 0.78157014, w: 0.3517391}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+      position: {x: -0.0019093698, y: 0.0570838, z: 0.09676174}
+      rotation: {x: -0.65915483, y: 0.53379095, z: 0.27499402, w: 0.45272562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+      parentName: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+      position: {x: -0.14951979, y: 1.7763568e-17, z: -8.8817837e-17}
+      rotation: {x: -0.000990212, y: 0.051962435, z: -0.004443854, w: 0.99863875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+      position: {x: -0.20439021, y: 8.8817837e-17, z: 1.0658141e-16}
+      rotation: {x: 0.0084701935, y: -0.05285872, z: 0.028438505, w: 0.9981611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.18906888, y: 5.3290704e-17, z: 0.016128734}
+      rotation: {x: 8.649948e-17, y: 0.7396307, z: -8.649948e-17, w: 0.67301303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_01SHJnt
+      parentName: GoatNewSkin_Goat_Spine_TopSHJnt
+      position: {x: -0.13702478, y: -0.0025454296, z: 0.0097663505}
+      rotation: {x: 0.0014945415, y: -0.5660755, z: 0.002826452, w: 0.82434726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_02SHJnt
+      parentName: GoatNewSkin_Goat_Neck_01SHJnt
+      position: {x: -0.05316262, y: 0.00335364, z: 0.079666205}
+      rotation: {x: -0.0031536454, y: 0.013643906, z: 0.0029536358, w: 0.9998976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_TopSHJnt
+      parentName: GoatNewSkin_Goat_Neck_02SHJnt
+      position: {x: -0.10478803, y: -0.00033926876, z: 0.055844292}
+      rotation: {x: 0.0032843917, y: -0.06237866, z: -0.004080532, w: 0.9980388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Head_JawSHJnt
+      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
+      position: {x: 0.04257916, y: -2.9542918e-17, z: 0.0593522}
+      rotation: {x: 0.03169394, y: 0.03169394, z: 0.70639616, w: 0.70639616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Head_TopSHJnt
+      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
+      position: {x: -0.131056, y: 1.1908754e-16, z: 0.045923047}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+      parentName: GoatNewSkin_Goat_Spine_TopSHJnt
+      position: {x: -0, y: 0.067489035, z: 2.842171e-16}
+      rotation: {x: -0.3633506, y: 0.36335063, z: 0.3531192, w: 0.7818309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+      position: {x: 0.0023251702, y: 0.0570838, z: 0.09676174}
+      rotation: {x: -0.5327719, y: 0.65957874, z: 0.45409414, w: 0.27369437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+      parentName: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+      position: {x: -0.14951979, y: 1.0658141e-16, z: 3.5527136e-17}
+      rotation: {x: 0.0010111924, y: 0.051881548, z: 0.004532157, w: 0.99864244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+      position: {x: -0.20439021, y: 5.3290704e-17, z: 2.4868996e-16}
+      rotation: {x: -0.008279398, y: -0.05296916, z: -0.027809056, w: 0.99817455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.18906888, y: 8.8817837e-17, z: 0.016128734}
+      rotation: {x: 8.649948e-17, y: 0.7396307, z: -8.649948e-17, w: 0.67301303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Tail_01_01SHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: -7.7068146e-17, y: 0.027394561, z: -0.061788183}
+      rotation: {x: -0.01243241, y: -0.7069975, z: 0.01243241, w: 0.7069975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Tail_01_02SHJnt
+      parentName: GoatNewSkin_Goat_Tail_01_01SHJnt
+      position: {x: -0.075764, y: 4.2632563e-16, z: -8.447898e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Tail_01_03SHJnt
+      parentName: GoatNewSkin_Goat_Tail_01_02SHJnt
+      position: {x: -0.06976395, y: -5.684342e-16, z: -2.3236061e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Udders
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: 3.5527136e-17, y: -0.2364757, z: 0.042307876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

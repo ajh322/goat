@@ -1,18 +1,43 @@
 ﻿using System.Collections;
+using GoogleMobileAds.Api;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public int playCount=1;
+
+    public int PlayCount
+    {
+        get { return playCount; }
+        set
+        {
+            Debug.Log(playCount);
+            //3회시 IS 호출, 카운트 초기화
+            if (playCount >= 3)
+            {
+                SceneController.Instance.ShowCanvasAds();
+                playCount = 1;
+            }
+            else
+            {
+                playCount = value;
+            }
+        }
+    }
+
+    public GameObject PrefabGoat;
+    public Transform GoatSpawnPosition;
+    
+    private float playedTime;
+    public TextMeshProUGUI TextTimer;
+    //게임 시작 여부
+    public bool IsGameStart;
     public Vector3 originPosition;
-    public GameObject currentGoat;
-    public Rigidbody GoatRigidBody;
-    public bool IsGoatStopped;
     public float PowerMultiplier = 1f;
     public Camera camera;
-    public Rigidbody spine;
-    public GameObject Wall1;
-    public GameObject Wall2;
+    public Goat goat;
     //최소 인식 볼륨
     [SerializeField] private float MinRecognizeVolume = 1f;
     [SerializeField] private Text MinRecognizeVolumeText;
@@ -23,11 +48,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text UpdateFrame;
     public float CurrentVolume;
 
-    public Text TextManualDB;
+    public Text LabelManualDB;
     public float ManualDB;
+    public Text LabelMaxPower;
     
-    //고트가 멈춘 시간을 카운트시작하는지 확인
-    public bool IsStartGoatStopCount;
     //염소가 멈춘시간을 카운트한다.
     public float CountGoatStopTime = 0f;
     //염소가 멈췄다고 판정하는 시간
@@ -46,6 +70,10 @@ public class GameManager : MonoBehaviour
         } else {
             _instance = this;
         }
+        Debug.Log("goat stop");
+        goat.IsGoatStop = true;
+        CountGoatStopTime = GoatStopCheckTime;
+        goat.GoatRagdoll.SetActive(false);
     }
     public void Restart()
     {
@@ -56,22 +84,52 @@ public class GameManager : MonoBehaviour
 
     public void Freeze()
     {
-        GoatRigidBody.isKinematic = true;
-        currentGoat.transform.position = originPosition;
-        GoatRigidBody.velocity = Vector3.zero;
-        GoatRigidBody.angularVelocity = Vector3.zero;
+        goat.spine.isKinematic = true;
+        goat.GoatRagdoll.transform.position = originPosition;
+        goat.spine.velocity = Vector3.zero;
+        goat.spine.angularVelocity = Vector3.zero;
     }
     public void UnFreeze()
     {
-        GoatRigidBody.isKinematic = false;
+        goat.spine.isKinematic = false;
     }
    
+    private BannerView bannerView;
 
     void Start()
     {
-        originPosition = currentGoat.transform.position;
+     #if UNITY_ANDROID
+                string appId = "ca-app-pub-3940256099942544~3347511713";
+            #elif UNITY_IPHONE
+                string appId = "ca-app-pub-3940256099942544~1458002511";
+            #else
+                string appId = "unexpected_platform";
+            #endif
+    
+            // Initialize the Google Mobile Ads SDK.
+            MobileAds.Initialize(appId);
+    
+            this.RequestBanner();
+    
+        originPosition = goat.GoatRagdoll.transform.position;
     }
+ private void RequestBanner()
+    {
+        #if UNITY_ANDROID
+            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+        #elif UNITY_IPHONE
+            string adUnitId = "ca-app-pub-3940256099942544/2934735716";
+        #else
+            string adUnitId = "unexpected_platform";
+        #endif
 
+        // Create a 320x50 banner at the top of the screen.
+        bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
+        AdRequest request = new AdRequest.Builder().Build();
+
+        // Load the banner with the request.
+        bannerView.LoadAd(request);
+    }
     public void SetMinRecognizeVolume(Slider slider)
     {
         MinRecognizeVolume = slider.value;
@@ -80,82 +138,111 @@ public class GameManager : MonoBehaviour
     public void SetManualDB(Slider slider)
     {
         ManualDB = slider.value;
-        TextManualDB.text = slider.value + "";
+        LabelManualDB.text = "Volume:" + slider.value + "";
+    }
+    public void SetMaxPower(Slider slider)
+    {
+        PowerMultiplier = slider.value;
+        LabelMaxPower.text = "발사힘x" + slider.value;
     }
     void FixedUpdate()
     {
-      
-        Vector3 tempPos = spine.transform.position;
-        tempPos.z = camera.transform.position.z;
-        camera.transform.position = tempPos;
-        
-        tempPos.z = Wall1.transform.position.z;
-        Wall1.transform.position = tempPos;
-        
-        tempPos.z = Wall2.transform.position.z;
-        Wall2.transform.position = tempPos;
+        if (goat)
+        {
+            //카메라 위치 이동
+            Vector3 tempPos = goat.spine.transform.position;
+            tempPos.z = camera.transform.position.z;
+            camera.transform.position = tempPos;
+        }
     }
 
+    public Goat SpawnGoat()
+    {
+        GameObject goat = Instantiate(PrefabGoat);
+        goat.transform.position = GoatSpawnPosition.position;
+        goat.GetComponent<Goat>().IsGoatStop = true;
+        CountGoatStopTime = GoatStopCheckTime;
+        return goat.GetComponent<Goat>();
+    }
     void Update()
     {
-        UpdateFrame.text = val++ + "";
-        timetest += Time.deltaTime;
-        if (timetest >= 1)
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            val = 0;
-            timetest = 0;
+            Death();
         }
-
-        if (GoatRigidBody.velocity.magnitude < 0.1)
+        if (IsGameStart)
         {
-            IsStartGoatStopCount = true;
-        }
-        else
-        {
-            IsGoatStopped = false;
-            IsStartGoatStopCount = false;
-            CountGoatStopTime = 0f;
-        }
-
-        if (IsStartGoatStopCount)
-        {
-            CountGoatStopTime += Time.deltaTime;
-            if (CountGoatStopTime >= GoatStopCheckTime)
+            //중앙 상단 플레이 타임 설정
+            playedTime += Time.deltaTime;
+            SetTextTimer();
+            
+            UpdateFrame.text = val++ + "";
+            timetest += Time.deltaTime;
+            if (timetest >= 1)
             {
-                currentGoat.SetActive(false);
-                IsGoatStopped = true;
+                val = 0;
+                timetest = 0;
+            }
+
+            if (goat.IsGoatStop)
+            {
+                //goat.GoatRagdoll.SetActive(false);
             }
             else
             {
-                currentGoat.SetActive(true);
-                IsGoatStopped = false;
+                //goat.GoatRagdoll.SetActive(true);
             }
-        }
-        //입력 시작 최소 볼륨보다 크면
 
-        if (IsGoatStopped)
-        {
-            MouseController.Instance.transform.localScale = Vector3.one;
-        }
-        else
-        {
-            MouseController.Instance.transform.localScale = Vector3.zero;
-        }
-        
-        if (CurrentVolume >= MinRecognizeVolume && IsGoatStopped)
-        {
-            //기존 코루틴 정지, 새로 시작
-            StopCoroutine("StartRecord");
-            StartCoroutine("StartRecord");
+            //입력 시작 최소 볼륨보다 크면
+            if (CurrentVolume >= MinRecognizeVolume && goat.IsGoatStop)
+            {
+                //기존 코루틴 정지, 새로 시작
+                StopCoroutine("StartRecord");
+                StartCoroutine("StartRecord");
+            }
         }
     }
 
+    private void SetTextTimer()
+    {
+        TextTimer.text = Mathf.FloorToInt(playedTime / 60).ToString("00") + ":" + (playedTime % 60).ToString("00");
+    }
+
+    public void Death()
+    {
+        GameOver();
+        Destroy(goat.gameObject);
+    }
+
+    public void CountDeath()
+    {
+        PlayCount++;
+    }
+    public void GameOver()
+    {
+        SceneController.Instance.GoGameOverScene();
+        IsGameStart = false;
+    }
+
+    public void GameStart()
+    {
+        SceneController.Instance.GoInGameScene();
+        if (goat)
+        {
+            Debug.Log("이미 염소 있음");
+            Destroy(goat.gameObject);
+        }
+        goat = SpawnGoat();
+        IsGameStart = true;
+        playedTime = 0;
+    }
+    
     public void EndRecord()
     {
         Debug.Log(GaugeController.Instance.IsChargeAttack());
         if (GaugeController.Instance.IsChargeAttack())
         {
-            currentGoat.SetActive(true);
+            goat.GoatRagdoll.SetActive(true);
             MouseController.Instance.Fire();
             GaugeController.Instance.ResetChargePower();
         }

@@ -67,7 +67,7 @@ public class MicrophoneListener : MonoBehaviour
          
           //아래는 커스텀 한 소스로 플레이어 스크립트의 CurrentVolume값을 계속해서 바꿔준다.
          GameManager.Instance.CurrentVolume = loudness;
-         TextVol.text = "vol:" + loudness;
+         TextVol.text = "MikeVolume::" + loudness;
      }
  
 

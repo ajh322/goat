@@ -1,122 +1,350 @@
 fileFormatVersion: 2
 guid: 58c4e9a2bfeede04d98e447941a550ba
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Goat_HP_msh
-    100004: Goat_LP_msh
-    100006: Goat_SHP_msh
-    100008: GoatNewSkin_Goat_Head_JawSHJnt
-    100010: GoatNewSkin_Goat_Head_TopSHJnt
-    100012: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
-    100014: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
-    100016: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
-    100018: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
-    100020: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
-    100022: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
-    100024: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
-    100026: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
-    100028: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
-    100030: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
-    100032: GoatNewSkin_Goat_Neck_01SHJnt
-    100034: GoatNewSkin_Goat_Neck_02SHJnt
-    100036: GoatNewSkin_Goat_Neck_TopSHJnt
-    100038: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
-    100040: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
-    100042: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
-    100044: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
-    100046: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
-    100048: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
-    100050: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
-    100052: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
-    100054: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
-    100056: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
-    100058: GoatNewSkin_Goat_ROOTSHJnt
-    100060: GoatNewSkin_Goat_SHJntGrp
-    100062: GoatNewSkin_Goat_Spine_01SHJnt
-    100064: GoatNewSkin_Goat_Spine_02SHJnt
-    100066: GoatNewSkin_Goat_Spine_03SHJnt
-    100068: GoatNewSkin_Goat_Spine_04SHJnt
-    100070: GoatNewSkin_Goat_Spine_TopSHJnt
-    100072: GoatNewSkin_Goat_Tail_01_01SHJnt
-    100074: GoatNewSkin_Goat_Tail_01_02SHJnt
-    100076: GoatNewSkin_Goat_Tail_01_03SHJnt
-    100078: GoatNewSkin_group
-    100080: GoatNewSkin_Udders
-    400000: //RootNode
-    400002: Goat_HP_msh
-    400004: Goat_LP_msh
-    400006: Goat_SHP_msh
-    400008: GoatNewSkin_Goat_Head_JawSHJnt
-    400010: GoatNewSkin_Goat_Head_TopSHJnt
-    400012: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
-    400014: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
-    400016: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
-    400018: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
-    400020: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
-    400022: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
-    400024: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
-    400026: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
-    400028: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
-    400030: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
-    400032: GoatNewSkin_Goat_Neck_01SHJnt
-    400034: GoatNewSkin_Goat_Neck_02SHJnt
-    400036: GoatNewSkin_Goat_Neck_TopSHJnt
-    400038: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
-    400040: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
-    400042: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
-    400044: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
-    400046: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
-    400048: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
-    400050: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
-    400052: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
-    400054: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
-    400056: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
-    400058: GoatNewSkin_Goat_ROOTSHJnt
-    400060: GoatNewSkin_Goat_SHJntGrp
-    400062: GoatNewSkin_Goat_Spine_01SHJnt
-    400064: GoatNewSkin_Goat_Spine_02SHJnt
-    400066: GoatNewSkin_Goat_Spine_03SHJnt
-    400068: GoatNewSkin_Goat_Spine_04SHJnt
-    400070: GoatNewSkin_Goat_Spine_TopSHJnt
-    400072: GoatNewSkin_Goat_Tail_01_01SHJnt
-    400074: GoatNewSkin_Goat_Tail_01_02SHJnt
-    400076: GoatNewSkin_Goat_Tail_01_03SHJnt
-    400078: GoatNewSkin_group
-    400080: GoatNewSkin_Udders
-    4300000: Goat_LP_msh
-    4300002: Goat_HP_msh
-    4300004: Goat_SHP_msh
-    7400000: Bind Pose
-    7400002: Springbok
-    7400004: Run
-    7400006: Run With Jump
-    7400008: Run Fast
-    7400010: Walk
-    7400012: Walk Eating
-    7400014: Eating
-    7400016: Jump
-    7400018: Idle
-    7400020: Idle01
-    7400022: Lie Down
-    7400024: Rest
-    7400026: Stand Up
-    7400028: Fight Idle
-    7400030: Attack Back
-    7400032: Attack Front
-    7400034: Hit Left
-    7400036: Hit Right
-    7400038: Hit Front
-    7400040: Hit Back
-    7400042: Death
-    7400044: Death01
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Goat_LP_msh
-    13700002: Goat_HP_msh
-    13700004: Goat_SHP_msh
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Goat_HP_msh
+  - first:
+      1: 100004
+    second: Goat_LP_msh
+  - first:
+      1: 100006
+    second: Goat_SHP_msh
+  - first:
+      1: 100008
+    second: GoatNewSkin_Goat_Head_JawSHJnt
+  - first:
+      1: 100010
+    second: GoatNewSkin_Goat_Head_TopSHJnt
+  - first:
+      1: 100012
+    second: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100014
+    second: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100016
+    second: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100018
+    second: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100020
+    second: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100022
+    second: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100024
+    second: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+  - first:
+      1: 100026
+    second: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+  - first:
+      1: 100028
+    second: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+  - first:
+      1: 100030
+    second: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+  - first:
+      1: 100032
+    second: GoatNewSkin_Goat_Neck_01SHJnt
+  - first:
+      1: 100034
+    second: GoatNewSkin_Goat_Neck_02SHJnt
+  - first:
+      1: 100036
+    second: GoatNewSkin_Goat_Neck_TopSHJnt
+  - first:
+      1: 100038
+    second: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100040
+    second: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100042
+    second: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100044
+    second: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100046
+    second: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100048
+    second: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100050
+    second: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+  - first:
+      1: 100052
+    second: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+  - first:
+      1: 100054
+    second: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+  - first:
+      1: 100056
+    second: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+  - first:
+      1: 100058
+    second: GoatNewSkin_Goat_ROOTSHJnt
+  - first:
+      1: 100060
+    second: GoatNewSkin_Goat_SHJntGrp
+  - first:
+      1: 100062
+    second: GoatNewSkin_Goat_Spine_01SHJnt
+  - first:
+      1: 100064
+    second: GoatNewSkin_Goat_Spine_02SHJnt
+  - first:
+      1: 100066
+    second: GoatNewSkin_Goat_Spine_03SHJnt
+  - first:
+      1: 100068
+    second: GoatNewSkin_Goat_Spine_04SHJnt
+  - first:
+      1: 100070
+    second: GoatNewSkin_Goat_Spine_TopSHJnt
+  - first:
+      1: 100072
+    second: GoatNewSkin_Goat_Tail_01_01SHJnt
+  - first:
+      1: 100074
+    second: GoatNewSkin_Goat_Tail_01_02SHJnt
+  - first:
+      1: 100076
+    second: GoatNewSkin_Goat_Tail_01_03SHJnt
+  - first:
+      1: 100078
+    second: GoatNewSkin_group
+  - first:
+      1: 100080
+    second: GoatNewSkin_Udders
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Goat_HP_msh
+  - first:
+      4: 400004
+    second: Goat_LP_msh
+  - first:
+      4: 400006
+    second: Goat_SHP_msh
+  - first:
+      4: 400008
+    second: GoatNewSkin_Goat_Head_JawSHJnt
+  - first:
+      4: 400010
+    second: GoatNewSkin_Goat_Head_TopSHJnt
+  - first:
+      4: 400012
+    second: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400014
+    second: GoatNewSkin_Goat_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400016
+    second: GoatNewSkin_Goat_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400018
+    second: GoatNewSkin_Goat_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400020
+    second: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400022
+    second: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400024
+    second: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+  - first:
+      4: 400026
+    second: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+  - first:
+      4: 400028
+    second: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+  - first:
+      4: 400030
+    second: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+  - first:
+      4: 400032
+    second: GoatNewSkin_Goat_Neck_01SHJnt
+  - first:
+      4: 400034
+    second: GoatNewSkin_Goat_Neck_02SHJnt
+  - first:
+      4: 400036
+    second: GoatNewSkin_Goat_Neck_TopSHJnt
+  - first:
+      4: 400038
+    second: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400040
+    second: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400042
+    second: GoatNewSkin_Goat_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400044
+    second: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400046
+    second: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400048
+    second: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400050
+    second: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+  - first:
+      4: 400052
+    second: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+  - first:
+      4: 400054
+    second: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+  - first:
+      4: 400056
+    second: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+  - first:
+      4: 400058
+    second: GoatNewSkin_Goat_ROOTSHJnt
+  - first:
+      4: 400060
+    second: GoatNewSkin_Goat_SHJntGrp
+  - first:
+      4: 400062
+    second: GoatNewSkin_Goat_Spine_01SHJnt
+  - first:
+      4: 400064
+    second: GoatNewSkin_Goat_Spine_02SHJnt
+  - first:
+      4: 400066
+    second: GoatNewSkin_Goat_Spine_03SHJnt
+  - first:
+      4: 400068
+    second: GoatNewSkin_Goat_Spine_04SHJnt
+  - first:
+      4: 400070
+    second: GoatNewSkin_Goat_Spine_TopSHJnt
+  - first:
+      4: 400072
+    second: GoatNewSkin_Goat_Tail_01_01SHJnt
+  - first:
+      4: 400074
+    second: GoatNewSkin_Goat_Tail_01_02SHJnt
+  - first:
+      4: 400076
+    second: GoatNewSkin_Goat_Tail_01_03SHJnt
+  - first:
+      4: 400078
+    second: GoatNewSkin_group
+  - first:
+      4: 400080
+    second: GoatNewSkin_Udders
+  - first:
+      43: 4300000
+    second: Goat_LP_msh
+  - first:
+      43: 4300002
+    second: Goat_HP_msh
+  - first:
+      43: 4300004
+    second: Goat_SHP_msh
+  - first:
+      74: 7400000
+    second: Bind Pose
+  - first:
+      74: 7400002
+    second: Springbok
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Run With Jump
+  - first:
+      74: 7400008
+    second: Run Fast
+  - first:
+      74: 7400010
+    second: Walk
+  - first:
+      74: 7400012
+    second: Walk Eating
+  - first:
+      74: 7400014
+    second: Eating
+  - first:
+      74: 7400016
+    second: Jump
+  - first:
+      74: 7400018
+    second: Idle
+  - first:
+      74: 7400020
+    second: Idle01
+  - first:
+      74: 7400022
+    second: Lie Down
+  - first:
+      74: 7400024
+    second: Rest
+  - first:
+      74: 7400026
+    second: Stand Up
+  - first:
+      74: 7400028
+    second: Fight Idle
+  - first:
+      74: 7400030
+    second: Attack Back
+  - first:
+      74: 7400032
+    second: Attack Front
+  - first:
+      74: 7400034
+    second: Hit Left
+  - first:
+      74: 7400036
+    second: Hit Right
+  - first:
+      74: 7400038
+    second: Hit Front
+  - first:
+      74: 7400040
+    second: Hit Back
+  - first:
+      74: 7400042
+    second: Death
+  - first:
+      74: 7400044
+    second: Death01
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Goat_LP_msh
+  - first:
+      137: 13700002
+    second: Goat_HP_msh
+  - first:
+      137: 13700004
+    second: Goat_SHP_msh
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -132,7 +360,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -172,6 +400,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Bind Pose
       takeName: 
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 0
       wrapMode: 0
@@ -200,6 +429,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Springbok
       takeName: 
+      internalID: 7400002
       firstFrame: 1
       lastFrame: 23
       wrapMode: 0
@@ -228,6 +458,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: 
+      internalID: 7400004
       firstFrame: 25
       lastFrame: 38
       wrapMode: 0
@@ -256,6 +487,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run With Jump
       takeName: 
+      internalID: 7400006
       firstFrame: 40
       lastFrame: 65
       wrapMode: 0
@@ -284,6 +516,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run Fast
       takeName: 
+      internalID: 7400008
       firstFrame: 67
       lastFrame: 79
       wrapMode: 0
@@ -312,6 +545,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: 
+      internalID: 7400010
       firstFrame: 81
       lastFrame: 110
       wrapMode: 0
@@ -340,6 +574,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk Eating
       takeName: 
+      internalID: 7400012
       firstFrame: 112
       lastFrame: 164
       wrapMode: 0
@@ -368,6 +603,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: 
+      internalID: 7400014
       firstFrame: 166
       lastFrame: 225
       wrapMode: 0
@@ -396,6 +632,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump
       takeName: 
+      internalID: 7400016
       firstFrame: 227
       lastFrame: 257
       wrapMode: 0
@@ -424,6 +661,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: 
+      internalID: 7400018
       firstFrame: 259
       lastFrame: 377
       wrapMode: 0
@@ -452,6 +690,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle01
       takeName: 
+      internalID: 7400020
       firstFrame: 379
       lastFrame: 469
       wrapMode: 0
@@ -480,6 +719,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Lie Down
       takeName: 
+      internalID: 7400022
       firstFrame: 471
       lastFrame: 489
       wrapMode: 0
@@ -508,6 +748,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rest
       takeName: 
+      internalID: 7400024
       firstFrame: 490
       lastFrame: 549
       wrapMode: 0
@@ -536,6 +777,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Stand Up
       takeName: 
+      internalID: 7400026
       firstFrame: 550
       lastFrame: 569
       wrapMode: 0
@@ -564,6 +806,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fight Idle
       takeName: 
+      internalID: 7400028
       firstFrame: 571
       lastFrame: 629
       wrapMode: 0
@@ -592,6 +835,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Back
       takeName: 
+      internalID: 7400030
       firstFrame: 630
       lastFrame: 654
       wrapMode: 0
@@ -620,6 +864,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Front
       takeName: 
+      internalID: 7400032
       firstFrame: 655
       lastFrame: 679
       wrapMode: 0
@@ -648,6 +893,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Left
       takeName: 
+      internalID: 7400034
       firstFrame: 680
       lastFrame: 694
       wrapMode: 0
@@ -676,6 +922,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Right
       takeName: 
+      internalID: 7400036
       firstFrame: 695
       lastFrame: 709
       wrapMode: 0
@@ -704,6 +951,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Front
       takeName: 
+      internalID: 7400038
       firstFrame: 710
       lastFrame: 724
       wrapMode: 0
@@ -732,6 +980,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Back
       takeName: 
+      internalID: 7400040
       firstFrame: 725
       lastFrame: 739
       wrapMode: 0
@@ -760,6 +1009,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: 
+      internalID: 7400042
       firstFrame: 741
       lastFrame: 757
       wrapMode: 0
@@ -788,6 +1038,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death01
       takeName: 
+      internalID: 7400044
       firstFrame: 759
       lastFrame: 773
       wrapMode: 0
@@ -827,18 +1078,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -847,13 +1099,22 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: GoatNewSkin_Goat_ROOTSHJnt
       humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -868,6 +1129,14 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     - boneName: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
       humanName: RightLowerLeg
       limit:
@@ -876,16 +1145,16 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
-      humanName: RightFoot
+    - boneName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
-      humanName: RightToes
+    - boneName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -908,46 +1177,6 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_Spine_03SHJnt
-      humanName: UpperChest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
     - boneName: GoatNewSkin_Goat_Neck_01SHJnt
       humanName: Neck
       limit:
@@ -964,16 +1193,16 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_Head_JawSHJnt
-      humanName: Jaw
+    - boneName: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
+      humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_l_Clavicle_01_01SHJnt
-      humanName: LeftShoulder
+    - boneName: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
+      humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -988,8 +1217,24 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_HipSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     - boneName: GoatNewSkin_Goat_l_FrontLeg_KneeSHJnt
       humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_KneeSHJnt
+      humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -1004,24 +1249,8 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
-      humanName: LeftFoot
+    - boneName: GoatNewSkin_Goat_r_FrontLeg_AnkleSHJnt
+      humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -1036,26 +1265,35 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GoatNewSkin_Goat_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: Goat(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goat_HP_msh
-      parentName: Goat(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goat_LP_msh
-      parentName: Goat(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goat_SHP_msh
-      parentName: Goat(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: GoatNewSkin_group
       parentName: Goat(Clone)
@@ -1071,56 +1309,6 @@ ModelImporter:
       parentName: GoatNewSkin_Goat_SHJntGrp
       position: {x: 0, y: 0.57873565, z: -0.0023562908}
       rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
-      parentName: GoatNewSkin_Goat_ROOTSHJnt
-      position: {x: -0.09304045, y: -0.0023562876, z: 0.016135667}
-      rotation: {x: 0.45066944, y: -0.46301746, z: 0.5055052, w: 0.57181853}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
-      parentName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
-      position: {x: -0.19123287, y: -3.5527136e-17, z: -2.3876456e-14}
-      rotation: {x: 0.0042047645, y: -0.42910308, z: 0.007691144, w: 0.903213}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
-      parentName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
-      position: {x: -0.2576462, y: 1.9813484e-13, z: -4.860112e-14}
-      rotation: {x: -0.038085856, y: 0.2846886, z: -0.04118752, w: 0.95697725}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
-      parentName: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
-      position: {x: -0.21062042, y: 0, z: -1.2576606e-14}
-      rotation: {x: -0.058619827, y: 0.6398712, z: 0.042992987, w: 0.76503605}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
-      parentName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
-      position: {x: -0.051763747, y: 0.0021999069, z: 0.028223688}
-      rotation: {x: -0.003908922, y: 0.808948, z: 0.003908922, w: 0.5878544}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
-      parentName: GoatNewSkin_Goat_ROOTSHJnt
-      position: {x: 0.09304045, y: -0.0023562876, z: 0.016135667}
-      rotation: {x: 0.4630174, y: -0.45066944, z: 0.5718186, w: 0.50550514}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
-      parentName: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
-      position: {x: -0.19123287, y: 8.8817837e-17, z: -2.6467716e-14}
-      rotation: {x: -0.0042047948, y: -0.42910242, z: -0.0076912045, w: 0.90321326}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
-      parentName: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
-      position: {x: -0.2576462, y: -1.9808154e-13, z: 8.995471e-14}
-      rotation: {x: 0.038085904, y: 0.28468695, z: 0.04118753, w: 0.9569777}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
-      parentName: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
-      position: {x: -0.21062042, y: -2.842171e-16, z: -5.2580163e-15}
-      rotation: {x: 0.058619834, y: 0.63987195, z: -0.0429932, w: 0.7650355}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
-      parentName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
-      position: {x: -0.051763747, y: -0.0021999069, z: 0.028223688}
-      rotation: {x: 0.003908922, y: 0.808948, z: -0.003908922, w: 0.5878544}
       scale: {x: 1, y: 1, z: 1}
     - name: GoatNewSkin_Goat_Spine_01SHJnt
       parentName: GoatNewSkin_Goat_ROOTSHJnt
@@ -1172,31 +1360,6 @@ ModelImporter:
       position: {x: -0.18906888, y: 5.3290704e-17, z: 0.016128734}
       rotation: {x: 8.649948e-17, y: 0.7396307, z: -8.649948e-17, w: 0.67301303}
       scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_Neck_01SHJnt
-      parentName: GoatNewSkin_Goat_Spine_TopSHJnt
-      position: {x: -0.13702478, y: -0.0025454296, z: 0.0097663505}
-      rotation: {x: 0.0014945415, y: -0.5660755, z: 0.002826452, w: 0.82434726}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_Neck_02SHJnt
-      parentName: GoatNewSkin_Goat_Neck_01SHJnt
-      position: {x: -0.05316262, y: 0.00335364, z: 0.079666205}
-      rotation: {x: -0.0031536454, y: 0.013643906, z: 0.0029536358, w: 0.9998976}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_Neck_TopSHJnt
-      parentName: GoatNewSkin_Goat_Neck_02SHJnt
-      position: {x: -0.10478803, y: -0.00033926876, z: 0.055844292}
-      rotation: {x: 0.0032843917, y: -0.06237866, z: -0.004080532, w: 0.9980388}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_Head_JawSHJnt
-      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
-      position: {x: 0.04257916, y: -2.9542918e-17, z: 0.0593522}
-      rotation: {x: 0.03169394, y: 0.03169394, z: 0.70639616, w: 0.70639616}
-      scale: {x: 1, y: 1, z: 1}
-    - name: GoatNewSkin_Goat_Head_TopSHJnt
-      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
-      position: {x: -0.131056, y: 1.1908754e-16, z: 0.045923047}
-      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
     - name: GoatNewSkin_Goat_r_Clavicle_01_01SHJnt
       parentName: GoatNewSkin_Goat_Spine_TopSHJnt
       position: {x: -0, y: 0.067489035, z: 2.842171e-16}
@@ -1222,6 +1385,81 @@ ModelImporter:
       position: {x: -0.18906888, y: 8.8817837e-17, z: 0.016128734}
       rotation: {x: 8.649948e-17, y: 0.7396307, z: -8.649948e-17, w: 0.67301303}
       scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_01SHJnt
+      parentName: GoatNewSkin_Goat_Spine_TopSHJnt
+      position: {x: -0.13702478, y: -0.0025454296, z: 0.0097663505}
+      rotation: {x: 0.0014945415, y: -0.5660755, z: 0.002826452, w: 0.82434726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_02SHJnt
+      parentName: GoatNewSkin_Goat_Neck_01SHJnt
+      position: {x: -0.05316262, y: 0.00335364, z: 0.079666205}
+      rotation: {x: -0.0031536454, y: 0.013643906, z: 0.0029536358, w: 0.9998976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Neck_TopSHJnt
+      parentName: GoatNewSkin_Goat_Neck_02SHJnt
+      position: {x: -0.10478803, y: -0.00033926876, z: 0.055844292}
+      rotation: {x: 0.0032843917, y: -0.06237866, z: -0.004080532, w: 0.9980388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Head_JawSHJnt
+      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
+      position: {x: 0.04257916, y: -2.9542918e-17, z: 0.0593522}
+      rotation: {x: 0.03169394, y: 0.03169394, z: 0.70639616, w: 0.70639616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_Head_TopSHJnt
+      parentName: GoatNewSkin_Goat_Neck_TopSHJnt
+      position: {x: -0.131056, y: 1.1908754e-16, z: 0.045923047}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: -0.09304045, y: -0.0023562876, z: 0.016135667}
+      rotation: {x: 0.45066944, y: -0.46301746, z: 0.5055052, w: 0.57181853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_HipSHJnt
+      position: {x: -0.19123287, y: -3.5527136e-17, z: -2.3876456e-14}
+      rotation: {x: 0.0042047645, y: -0.42910308, z: 0.007691144, w: 0.903213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_Knee1SHJnt
+      position: {x: -0.2576462, y: 1.9813484e-13, z: -4.860112e-14}
+      rotation: {x: -0.038085856, y: 0.2846886, z: -0.04118752, w: 0.95697725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_Knee2SHJnt
+      position: {x: -0.21062042, y: 0, z: -1.2576606e-14}
+      rotation: {x: -0.058619827, y: 0.6398712, z: 0.042992987, w: 0.76503605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_l_HindLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_l_HindLeg_AnkleSHJnt
+      position: {x: -0.051763747, y: 0.0021999069, z: 0.028223688}
+      rotation: {x: -0.003908922, y: 0.808948, z: 0.003908922, w: 0.5878544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+      parentName: GoatNewSkin_Goat_ROOTSHJnt
+      position: {x: 0.09304045, y: -0.0023562876, z: 0.016135667}
+      rotation: {x: 0.4630174, y: -0.45066944, z: 0.5718186, w: 0.50550514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_HipSHJnt
+      position: {x: -0.19123287, y: 8.8817837e-17, z: -2.6467716e-14}
+      rotation: {x: -0.0042047948, y: -0.42910242, z: -0.0076912045, w: 0.90321326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_Knee1SHJnt
+      position: {x: -0.2576462, y: -1.9808154e-13, z: 8.995471e-14}
+      rotation: {x: 0.0380859, y: 0.28468695, z: 0.041187525, w: 0.9569777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_Knee2SHJnt
+      position: {x: -0.21062042, y: -2.842171e-16, z: -5.2580163e-15}
+      rotation: {x: 0.058619764, y: 0.63987195, z: -0.042993188, w: 0.7650355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatNewSkin_Goat_r_HindLeg_BallSHJnt
+      parentName: GoatNewSkin_Goat_r_HindLeg_AnkleSHJnt
+      position: {x: -0.051763747, y: -0.0021999069, z: 0.028223688}
+      rotation: {x: 0.003908922, y: 0.808948, z: -0.003908922, w: 0.5878544}
+      scale: {x: 1, y: 1, z: 1}
     - name: GoatNewSkin_Goat_Tail_01_01SHJnt
       parentName: GoatNewSkin_Goat_ROOTSHJnt
       position: {x: -7.7068146e-17, y: 0.027394561, z: -0.061788183}
@@ -1242,6 +1480,21 @@ ModelImporter:
       position: {x: 3.5527136e-17, y: -0.2364757, z: 0.042307876}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: Goat_HP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goat_SHP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goat_LP_msh
+      parentName: Goat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -1249,6 +1502,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

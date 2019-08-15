@@ -7,6 +7,7 @@ public class GaugeController : MonoBehaviour
 {
     [SerializeField] public float ChargePower=0;
     [SerializeField] private float Multiplier=1;
+    [SerializeField] private Text TextMikePower;
     
     private static GaugeController _instance;
     public static GaugeController Instance { get { return _instance; } }
@@ -18,6 +19,11 @@ public class GaugeController : MonoBehaviour
         } else {
             _instance = this;
         }
+    }
+    public void SetMultiplier(Slider slider)
+    {
+        Multiplier = slider.value;
+        TextMikePower.text = "마이크인식힘x" + slider.value + "";
     }
     //게이지 컨트롤러 작동원리
     //1. 입력이 게이지가 쌓이면 누적
